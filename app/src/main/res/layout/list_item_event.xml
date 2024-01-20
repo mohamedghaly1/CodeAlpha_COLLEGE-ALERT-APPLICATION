@@ -1,0 +1,40 @@
+<!-- list_item_event.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="?android:textColorPrimary" />
+
+    <!-- Original description TextView -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+    android:ellipsize="end"
+    android:textColor="?android:textColorSecondary" />
+
+    <!-- Expanded description TextView -->
+    <TextView
+        android:id="@+id/expandedDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+    android:textColor="?android:textColorSecondary" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="?android:textColorTertiary" />
+</LinearLayout>

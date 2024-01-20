@@ -1,0 +1,18 @@
+<!-- styles.xml -->
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="UniversityNameStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <!-- Add your custom styles here -->
+
+</resources>

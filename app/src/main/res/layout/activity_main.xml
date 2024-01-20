@@ -1,0 +1,29 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+
+    <!-- University Logo -->
+    <ImageView
+        android:id="@+id/universityLogo"
+        android:layout_width="80dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/image"
+    />
+
+    <ListView
+        android:id="@+id/eventListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/universityLogo"
+        android:divider="@color/dividerColor"
+        android:dividerHeight="0.5dp"
+        android:padding="16dp"
+        android:background="?android:colorBackground" />
+</RelativeLayout>
